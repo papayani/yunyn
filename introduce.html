@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="introduce-style.css">
+  </head>
+  <body>
+    <h1>YUN</h1>
+    <input type="button" value="yes" onclick="
+      document.querySelector('body').style.backgroundColor = '#42108B';
+      document.querySelector('body').style.color = 'pink';
+    ">
+    <input type="button" value="yes" onclick="
+      document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color = 'black';
+    ">
+    <ol>
+      <li><a href="introduce.html">🌞</a></li>
+      <li><a href="index.html">❋</a></li>
+    </ol>
+    <a href="https://weather.com/ko-KR/weather/today/l/KSXX0037:1:KS">
+    <canvas id="myCanvas" width="300" height="300" style="border:0px solid #d3d3d3;">
+</canvas></a>
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(150, 150, 80, 0, 2 * Math.PI, true);
+    ctx.moveTo(150, 10);
+    ctx.lineTo(150, 60);
+    ctx.moveTo(10, 150);
+    ctx.lineTo(60, 150);
+    ctx.moveTo(150, 240);
+    ctx.lineTo(150, 290);
+    ctx.moveTo(240, 150);
+    ctx.lineTo(290, 150);
+    ctx.fillStyle= "orange";
+    ctx.fill();
+    ctx.stroke();
+    </script>
+</html>

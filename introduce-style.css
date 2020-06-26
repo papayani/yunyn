@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+}
+a {
+  color: LightCoral;
+  text-decoration: none;
+}
+h1 {
+  font-size:45px;
+  text-align:center;
+  margin: 0;
+  padding: 10px;
+  color: LightCoral;
+}
+h2 {
+  color: MediumTurquoise;
+}
+ol {
+  font-size:20px;
+  display: table;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+input{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+canvas{
+  margin-top: 10px;
+}
+
+#grid {
+  text-align: center;
+}
